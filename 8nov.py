@@ -35,7 +35,9 @@ v.__model="toyota"  # not possible in private  only access  within class not  ou
 print("model is  :",v.get_model())
 """
 
-setattr(v,"model","toyota") 
+"""setattr(v,"model","toyota") 
 setattr(v,"name","bike")
 print(getattr(v,"model"))
 print(getattr(v,"name"))
+"""
+
