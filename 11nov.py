@@ -75,7 +75,7 @@ m.show()
 """
 # option  a. 11   b.2   c.1   d none 
 
-# 2. multiple  level inheritance  : 
+# 2. multiple inheritance  : 
 
 """
 class a 
