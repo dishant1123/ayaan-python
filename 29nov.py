@@ -78,6 +78,8 @@ s.deposit(10000)
 s.withdraw(18000)
 print("SBI Balance after  deposit and withdraw :",s.get_balance())
 
-
+"""
+class hdfc(bank)  + int_rate  ==> 15000 int rate   30000 int rate ==> charges 
+"""
    
         
