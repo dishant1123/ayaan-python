@@ -47,13 +47,14 @@ with  open("ayaan_shah12.txt","a") as f :
 """
 
 # read mode : 
+"""
 with  open("ayyan.txt") as f: 
     # context =f.read()  # read all file  context 
     # context = f.readline()  # only first  line 
     context= f.readlines()  # all lines print in list. 
     print(context)
     f.close()
-    
+"""
 # task  :1 
 """
 ask  user to enter the  number  store in to list and seprate odd and even  number to  odd.txt and even.txt. 
@@ -61,4 +62,32 @@ ask  user to enter the  number  store in to list and seprate odd and even  numbe
 l1= [1,2,3,4,5]
 odd.txt = [1,3,5]
 even.txt = [2,4]
+"""
+"""l1= [1,2,3,4,5]
+with open("odd.txt","w") as f: 
+    for i in l1 :
+        if i %2==1 :
+            f.write(str(i) +"\n")
+    f.close()
+    
+with open("even.txt","w") as f: 
+    for i in l1 :
+        if i %2==0 :
+            f.write(str(i) +"\n")
+    f.close()
+            
+"""
+
+# task  :2
+"""
+ask  user to enter the  number  store in to list and seprate pellindrome in txt file. 
+
+l1= [121,234,345,414,511]
+peli.txt= 121 414 
+
+r= num %10  
+rev= rev *10 +r 
+num = num //10 
+
+if temp ==rev : 
 """
